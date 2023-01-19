@@ -27,3 +27,20 @@ describe("Given the CodersArray class", () => {
     });
   });
 });
+
+describe("Given the CodersArray class", () => {
+  describe("When it receives the words ''", () => {
+    test("Then it should return { 0 : '', length:1 } ", () => {
+      const emptyArray = "";
+
+      const expectedObject = {
+        0: "",
+        length: 1,
+      };
+
+      const object = new CodersArray(emptyArray);
+
+      expect(object).toEqual(expectedObject);
+    });
+  });
+});

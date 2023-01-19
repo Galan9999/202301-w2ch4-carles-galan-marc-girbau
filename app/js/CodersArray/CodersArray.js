@@ -7,6 +7,7 @@ class CodersArray {
       this[index] = arg;
       index++;
     }
+
     this.length = index;
   }
 }

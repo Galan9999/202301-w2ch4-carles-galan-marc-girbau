@@ -2,6 +2,8 @@
   "name": "202301-w2ch4-carles-galan-marc-girbau",
   "version": "1.0.0",
   "description": "",
+  "main": "app/js/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"

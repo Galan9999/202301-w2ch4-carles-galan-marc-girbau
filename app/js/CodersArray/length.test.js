@@ -1,7 +1,7 @@
 import CodersArray from "./CodersArray";
 
 describe("Given the CodersArray class", () => {
-  describe("When it receives the words 'Carles', 'Marc', 'Inge', 'Maxi'", () => {
+  describe("When it is created with the words 'Carles', 'Marc', 'Inge', 'Maxi'", () => {
     test("Then it should return { 0 : 'Carles', 1 : 'Marc', 2 : 'Inge', 3 : 'Maxi', length :'4' } ", () => {
       const firstName = "Carles";
       const secondName = "Marc";
@@ -26,9 +26,7 @@ describe("Given the CodersArray class", () => {
       expect(object).toEqual(expectedObject);
     });
   });
-});
 
-describe("Given the CodersArray class", () => {
   describe("When it receives the words ''", () => {
     test("Then it should return { 0 : '', length:1 } ", () => {
       const emptyArray = "";
